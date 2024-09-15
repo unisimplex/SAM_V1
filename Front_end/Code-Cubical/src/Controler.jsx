@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Enroll from './Enroll'
 import App from './App'

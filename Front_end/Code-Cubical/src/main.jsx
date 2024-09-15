@@ -1,12 +1,7 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
-//import CameraComponent from './AppPro.jsx'
-import Enroll from './Enroll.jsx'
 import Controler from './Controler.jsx'
-import Home from './Home.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,10 +12,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Controler/>
     </BrowserRouter>
-    {/* <App /> */}
-    {/* <CameraComponent/> */}
-    {/* <Enroll/> */}
-    {/* <Home/> */}
-    {/* <Controler/> */}
   </StrictMode>,
 )
