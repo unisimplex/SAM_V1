@@ -42,7 +42,7 @@ export default function Enroll() {
     const goHome = () => {
         navigate('/');
     };
-
+    
     return (
         <div>
             <div className="card bg-base-100 w-full ">
